@@ -1,6 +1,8 @@
 server:
   port: 8000
 spring:
+  application:
+    name: simple-provider-user
   jpa:
     generate-ddl: true
     show-sql: true
@@ -21,3 +23,9 @@ info:
     name: @project.artifactId@
     encoding: @project.build.sourceEncoding@
     java: @java.version@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+  instance:
+    prefer-ip-address: true
