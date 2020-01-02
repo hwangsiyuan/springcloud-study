@@ -12,6 +12,7 @@
         <module>simple-provider-user</module>
         <module>simple-consumer-user</module>
         <module>discovery-eureka</module>
+        <module>discovery-eureka-ha</module>
     </modules>
 
     <parent>
