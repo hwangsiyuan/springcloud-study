@@ -13,6 +13,8 @@
         <module>simple-consumer-user</module>
         <module>discovery-eureka</module>
         <module>discovery-eureka-ha</module>
+        <module>discovery-eureka-auth</module>
+        <module>auth-provider-user</module>
     </modules>
 
     <parent>
