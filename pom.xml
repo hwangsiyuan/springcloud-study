@@ -17,6 +17,7 @@
         <module>auth-provider-user</module>
         <module>ribbon-consumer-user</module>
         <module>ribbon-consumer-user-customizing</module>
+        <module>ribbon-consumer-user-without-eureka</module>
     </modules>
 
     <parent>
