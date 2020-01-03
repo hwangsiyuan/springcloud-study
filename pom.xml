@@ -16,6 +16,7 @@
         <module>discovery-eureka-auth</module>
         <module>auth-provider-user</module>
         <module>ribbon-consumer-user</module>
+        <module>ribbon-consumer-user-customizing</module>
     </modules>
 
     <parent>
