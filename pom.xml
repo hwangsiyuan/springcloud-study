@@ -21,6 +21,7 @@
         <module>feign-consumer-user</module>
         <module>feign-consumer-user-customizing</module>
         <module>auth-provider-user1</module>
+        <module>feign-consumer-user-manual</module>
     </modules>
 
     <parent>
