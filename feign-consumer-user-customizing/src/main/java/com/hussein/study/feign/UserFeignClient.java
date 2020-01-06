@@ -5,7 +5,6 @@ import com.hussein.study.dto.User;
 import feign.Param;
 import feign.RequestLine;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.PathVariable;
 
 /**
  * <p>Title: UserFeignClient</p>
