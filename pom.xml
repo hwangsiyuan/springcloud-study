@@ -24,6 +24,7 @@
         <module>feign-consumer-user-manual</module>
         <module>ribbon-consumer-user-hystrix</module>
         <module>feign-consumer-user-hystrix</module>
+        <module>feign-consumer-user-hystrix-fallback-factory</module>
     </modules>
 
     <parent>
