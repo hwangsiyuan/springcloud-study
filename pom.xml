@@ -19,6 +19,7 @@
         <module>ribbon-consumer-user-customizing</module>
         <module>ribbon-consumer-user-without-eureka</module>
         <module>feign-consumer-user</module>
+        <module>feign-consumer-user-customizing</module>
     </modules>
 
     <parent>
