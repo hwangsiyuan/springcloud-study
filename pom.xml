@@ -22,6 +22,7 @@
         <module>feign-consumer-user-customizing</module>
         <module>auth-provider-user1</module>
         <module>feign-consumer-user-manual</module>
+        <module>ribbon-consumer-user-hystrix</module>
     </modules>
 
     <parent>
