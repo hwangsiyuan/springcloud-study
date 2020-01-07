@@ -1,8 +1,8 @@
 server:
-  port: 8010
+  port: 8020
 spring:
   application:
-    name: simple-consumer-user
+    name: feign-consumer-user-hystrix-fallback-factory
 eureka:
   client:
     service-url:

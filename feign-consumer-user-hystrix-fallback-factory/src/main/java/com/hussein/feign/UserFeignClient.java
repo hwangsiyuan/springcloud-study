@@ -23,7 +23,7 @@ import java.math.BigDecimal;
 public interface UserFeignClient {
 
     @RequestMapping(value = "/findUserById/{id}", method = RequestMethod.GET)
-    User findUserById(@PathVariable("id") Long id);
+    User findUserById1(@PathVariable("id") Long id);
 
     @Component
     class UserFeignClientFeignFallbackFactory implements FallbackFactory<UserFeignClient> {
@@ -45,7 +45,7 @@ public interface UserFeignClient {
         }
 
         @Override
-        public User findUserById(Long id) {
+        public User findUserById1(Long id) {
             log.info("fallback reason was:", throwable);
             User user = new User();
             user.setId(id);

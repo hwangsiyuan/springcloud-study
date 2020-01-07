@@ -2,7 +2,7 @@ server:
   port: 8010
 spring:
   application:
-    name: simple-consumer-user
+    name: feign-consumer-user-hystrix
 eureka:
   client:
     service-url:

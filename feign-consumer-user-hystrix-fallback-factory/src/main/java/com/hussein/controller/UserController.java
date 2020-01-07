@@ -30,7 +30,7 @@ public class UserController {
 
     @GetMapping("/findUserById/{id}")
     public User findById(@PathVariable("id") long id) {
-        return userFeignClient.findUserById(id);
+        return userFeignClient.findUserById1(id);
     }
 
     @GetMapping("/showInfo")
