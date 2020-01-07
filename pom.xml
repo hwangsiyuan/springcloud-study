@@ -26,6 +26,8 @@
         <module>feign-consumer-user-hystrix</module>
         <module>feign-consumer-user-hystrix-fallback-factory</module>
         <module>hystrix-turbine</module>
+        <module>hystrix-turbine-mq</module>
+        <module>ribbon-consumer-user-hystrix-turbine-mq</module>
     </modules>
 
     <parent>

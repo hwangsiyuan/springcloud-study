@@ -2,7 +2,12 @@ server:
   port: 8010
 spring:
   application:
-    name: ribbon-consumer-user-hystrix
+    name: ribbon-consumer-user-hystrix-turbine-mq
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
